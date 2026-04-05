@@ -4,7 +4,7 @@
  * @param {string} url      The URL to issue the GET request.
  *
  */
-const API_BASE = (process.env.REACT_APP_API_URL || "").replace(/\/$/, "");
+const API_BASE = (process.env.REACT_APP_API_URL || "https://ng7fdr-5000.csb.app").replace(/\/$/, "");
 
 async function fetchModel(url) {
   const path = url.startsWith("/") ? url : `/${url}`;
