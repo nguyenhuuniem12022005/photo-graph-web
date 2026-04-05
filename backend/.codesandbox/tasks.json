@@ -1,0 +1,13 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "tasks": {
+    "start": {
+      "name": "API (npm start)",
+      "command": "npm start",
+      "runAtStart": false,
+      "preview": {
+        "port": 5000
+      }
+    }
+  }
+}
