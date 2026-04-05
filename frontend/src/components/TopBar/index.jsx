@@ -65,7 +65,7 @@ function TopBar(props) {
       <Toolbar>
         <div className="topbar-left">
           <Typography variant="h6" color="inherit" noWrap>
-            Photo Sharing App
+            Nguyen Huu Niem
           </Typography>
           <Typography variant="h6" color="inherit" noWrap sx={{ ml: 24 }}>
             {contextLabel}
